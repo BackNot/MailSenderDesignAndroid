@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Mail Sender</string>
+    <string name="button_see">See</string>
+    <string name="button_open">Open</string>
+    <string name="to">To</string>
+    <string name="from">From</string>
+    <string name="myemail">adamdoe@gmail.com</string>
+    <string name="subject">Subject</string>
+
+    <string name="email1_title">Elements of Interaction</string>
+    <string name="email1_text">I am greatly honored to receive this award,
+     \n   bearing the name of Alan Turing.</string>
+    <string name="email1_sender">johnjohnson@gmail.com</string>
+
+    <string name="email2_title">Programming</string>
+    <string name="email2_text">Today I want to talk about programming.</string>
+    <string name="email2_sender">ivanivanov@gmail.com</string>
+
+    <string name="email3_title">Greetings</string>
+    <string name="email3_text">Hello! I am Jessica. I wanted to set up a meeting.</string>
+    <string name="email3_sender">jessica@gmail.com</string>
+
+    <string name="email4_title">Work assignment</string>
+    <string name="email4_text">Please finish these tasks. Deadline - 2 days.</string>
+    <string name="email4_sender">manager@gmail.com</string>
+    <string name="title_activity_login">Mail Sender</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in </string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="inbox_title1">"Unified Inbox"</string>
+    <string name="inbox_text1">All messages in unified folder</string>
+
+    <string name="inbox_title2">All messages</string>
+    <string name="inbox_text2">All messages in searchable folder</string>
+
+    <string name="inbox_title3">Gmail</string>
+    <string name="inbox_text3">adamdoe@gmail.com</string>
+
+    <string name="inbox_title4">Yahoo</string>
+    <string name="inbox_text4">adamdoe@yahoo.com</string>
+
+    <string name="inbox_title5">Hotmail</string>
+    <string name="inbox_text5">adamdoe@hotmail.com</string>
+
+    <string name="inbox_title6">Outlook</string>
+    <string name="inbox_text6">adamdoe@outlook.com</string>
+
+</resources>
