@@ -1,3 +1,4 @@
 # MailSenderDesignAndroid
 
-Testing project. Used: Android Studio.
+Email app simple design. Homework assignment.
+Used: Android Studio.
