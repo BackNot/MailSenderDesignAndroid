@@ -8,20 +8,21 @@
     <string name="subject">Subject</string>
 
     <string name="email1_title">Elements of Interaction</string>
-    <string name="email1_text">I am greatly honored to receive this award,
-     \n   bearing the name of Alan Turing.</string>
+    <string name="email1_text">" I am greatly honored to receive this award,
+ bearing the name of Alan Turing."</string>
     <string name="email1_sender">johnjohnson@gmail.com</string>
 
     <string name="email2_title">Programming</string>
-    <string name="email2_text">Today I want to talk about programming.</string>
+    <string name="email2_text">" Today I want to talk about programming."</string>
     <string name="email2_sender">ivanivanov@gmail.com</string>
 
     <string name="email3_title">Greetings</string>
-    <string name="email3_text">Hello! I am Jessica. I wanted to set up a meeting.</string>
+    <string name="email3_text">" Hello! I am Jessica. I wanted to set up a
+ meeting."</string>
     <string name="email3_sender">jessica@gmail.com</string>
 
     <string name="email4_title">Work assignment</string>
-    <string name="email4_text">Please finish these tasks. Deadline - 2 days.</string>
+    <string name="email4_text">" Please finish these tasks. Deadline - 2 days."</string>
     <string name="email4_sender">manager@gmail.com</string>
     <string name="title_activity_login">Mail Sender</string>
     <string name="prompt_email">Email</string>

@@ -27,4 +27,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
+    public void goToOptions(View view) {
+        Intent intent = new Intent(this, activity_options.class);
+        startActivity(intent);
+    }
 }

@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bgcolor"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -149,7 +150,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="SEARCH"
+        android:text="OPTIONS"
+        android:onClick="goToOptions"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button10"
         app:layout_constraintHorizontal_bias="0.5"
@@ -189,6 +191,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/button_open"
+        android:background="@drawable/button_mainstyle"
         app:layout_constraintBottom_toBottomOf="@+id/textView17"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView18" />
@@ -200,6 +203,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/button_open"
+        android:background="@drawable/button_mainstyle"
         app:layout_constraintBottom_toBottomOf="@+id/textView16"
         app:layout_constraintEnd_toEndOf="@+id/button12"
         app:layout_constraintTop_toTopOf="@+id/textView15" />
@@ -211,18 +215,21 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/button_open"
-        android:onClick="goToLoginActivity"
+        android:onClick="goToInboxActivity"
+        android:background="@drawable/button_mainstyle"
         app:layout_constraintBottom_toBottomOf="@+id/textView14"
         app:layout_constraintEnd_toEndOf="@+id/button12"
         app:layout_constraintTop_toTopOf="@+id/textView13"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/button18"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_mainstyle"
         android:text="@string/button_open"
-        android:onClick="goToInboxActivity"
+        android:onClick="goToLoginActivity"
         app:layout_constraintBottom_toBottomOf="@+id/textView12"
         app:layout_constraintEnd_toEndOf="@+id/button14"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
@@ -235,6 +242,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="Button"
+        android:background="@drawable/button_mainstyle"
         app:layout_constraintBottom_toTopOf="@+id/textView9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -247,6 +255,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:text="Button"
+        android:background="@drawable/button_mainstyle"
         app:layout_constraintBottom_toTopOf="@+id/textView18"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
